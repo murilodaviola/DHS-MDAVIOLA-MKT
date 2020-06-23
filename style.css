@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500;700&display=swap');
+
+html * {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto Mono', monospace;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+h1 {
+  background-color: #ddd;
+  padding: 42px 42px;
+  text-align: center;
+  background-image: url("header-1.png");
+  background-size: cover;
+  background-position: center;
+  border-radius: 8px;
+  color: white;
+  text-shadow: 2px 2px 2px black;
+  box-shadow: 2px 2px 2px #ddd;
+}
+
+.botao { background-color: #1a73e8;
+  padding: 10px 18px;
+  margin: 10px;
+  font-weight: 700;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+border-radius: 8px;
+transition: all 0.3s;
+}
+
+nav {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+nav > a {
+  border-bottom: 4px solid #bbb;
+  color: #424242;
+  font-size: 18px;
+  padding: 5px 5px;
+  text-decoration: none;
+  text-align: center;
+  transition: all 0.3s;
+}
+
+
+nav > a:hover {
+  border-bottom: 4px solid #1a73e8;
+}
+
+
+a:hover {
+  background-color: white;
+  color: #1a73e8;
+}
+
+#intro
+{background-color: #BFBFBF;
+}
+
+#quatrops
+{  background-color: #F2D377;
+}
+
+#criatividade
+{
+  background-color: #506865;
+}
+
+#branding{
+  background-color: #F27244;
+}
+
+#lives {
+    background-color: #73394E;
+    color: #D9D9D9;
+}
+
+#caixa {
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+  grid-gap: 20px;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+#caixa4ps {
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(600px,1fr));
+  grid-gap: 20px;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.cartao {
+  background-color: #ddd;
+  padding: 18px;
+  border-radius: 8px;
+}
+
+.cartaointro {
+  background-color: #ddd;
+  padding: 20px 600px 20px 20px;
+  border-radius: 8px;
+  align-content: center;
+  text-align: center;
+}
+
+/* A div com classe use contem a imagem e limite o seu espaço vertical, evitando também o overflow */
+div.zoom {
+  max-height: 250px;
+  overflow: hidden;
+}
+
+/* O transition proporciona uma transição mais suave */
+.zoom > img {
+  transition: transform 0.5s ease;
+}
+
+/* Ao ocorrer o hover é realizada uma transformação de escala do elemento selecionado  */
+.cartao:hover > .zoom > img {
+  transform: scale(1.2);
+}
+
+footer {
+  border-top-width: 4px;
+  border-top-style: solid;
+  border-color: #ddd;
+  padding: 15px 15px;
+  text-align: center;
+  line-height: normal;
+}
+
+  p {
+    font-style: normal;
+    font-size: 12px;
+    font-weight: 300;
+  }
+
+
+  small {
+    line-height: 2;
+  }
