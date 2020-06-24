@@ -89,7 +89,6 @@ a:hover {
   display:grid;
   grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
   grid-gap: 20px;
-  align-items: center;
   text-align: center;
   padding: 20px;
 }
@@ -98,7 +97,6 @@ a:hover {
   display:grid;
   grid-template-columns: repeat(auto-fit, minmax(600px,1fr));
   grid-gap: 20px;
-  align-items: center;
   text-align: center;
   padding: 20px;
 }
@@ -110,8 +108,8 @@ a:hover {
 }
 
 .cartaointro {
-  background-color: #ddd;
-  padding: 20px 600px 20px 20px;
+  background-color: #white;
+  padding: 20px 20px 20px 20px;
   border-radius: 8px;
   align-content: center;
   text-align: center;
